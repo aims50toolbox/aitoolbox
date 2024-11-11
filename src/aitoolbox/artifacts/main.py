@@ -3,9 +3,9 @@ import asyncio
 import tornado
 import json
 import argparse
-from aitoolbox_support_lib.context import Context, ServerContext
-from aitoolbox_support_lib.sources import RESTSources,SourcesError
-from aitoolbox_support_lib.errors import ServiceError
+from aitoolbox.context import Context, ServerContext
+from aitoolbox.sources import RESTSources,SourcesError
+from aitoolboy.errors import ServiceError
 
 
 class MainHandler(tornado.web.RequestHandler):
