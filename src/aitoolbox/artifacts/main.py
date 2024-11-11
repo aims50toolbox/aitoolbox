@@ -5,7 +5,7 @@ import json
 import argparse
 from aitoolbox.context import Context, ServerContext
 from aitoolbox.sources import RESTSources,SourcesError
-from aitoolboy.errors import ServiceError
+from aitoolbox.errors import ServiceError
 
 
 class MainHandler(tornado.web.RequestHandler):
