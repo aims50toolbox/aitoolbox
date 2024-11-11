@@ -38,8 +38,7 @@ source ~/aitools/.venv/bin/activate
 
 After that, install the AI Toolbox library and the support library:
 ```
-pip3 install git+https://github.com/hollosigergely/aitoolbox.git
-pip3 install git+https://github.com/hollosigergely/aitoolbox_support_library.git
+pip3 install git+https://github.com/aims50toolbox/aitoolbox.git
 ```
 
 Now, AI Toolbox is installed, and you can start using the [aitutil](doc/aitutil.md) tool, or browse the [tool catalogue](https://github.com/aims50toolbox/app-catalogue). Also, try the 
