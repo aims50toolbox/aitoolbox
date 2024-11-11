@@ -14,7 +14,9 @@ requires-python = ">=3.7"
 dependencies = [
     "more_itertools",
     "PyYAML",
-    "setuptools"
+    "setuptools",
+    "imageio",
+    "numpy"
 ]
 classifiers = [
     "Programming Language :: Python :: 3",
